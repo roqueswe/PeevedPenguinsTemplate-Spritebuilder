@@ -66,7 +66,7 @@
     
     return YES;
     
-    return YES;
+    
 }
 
 - (CCScene*) startScene
