@@ -32,11 +32,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [self setupCocos2dWithOptions:cocos2dSetup];
     
-    [CCBReader load:@"Penguin"];
-    
-    [CCBReader load:@"Seal"];
     
 
     // Configure Cocos2d with the options set in SpriteBuilder
@@ -60,6 +56,15 @@
     //[cocos2dSetup setObject:kEAGLColorFormatRGB565 forKey:CCConfigPixelFormat];
     
     [self setupCocos2dWithOptions:cocos2dSetup];
+    
+    
+    
+    
+    [CCBReader load:@"Penguin"];
+    [CCBReader load:@"Seal"];
+    
+    
+    return YES;
     
     return YES;
 }
