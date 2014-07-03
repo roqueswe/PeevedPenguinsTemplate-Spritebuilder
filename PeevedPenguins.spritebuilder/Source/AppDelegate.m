@@ -32,7 +32,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [self setupCoco2dWithOptions:cocos2dSetup];
+    [self setupCocos2dWithOptions:cocos2dSetup];
     
     [CCBReader load:@"Penguin"];
     
